@@ -54,4 +54,30 @@ touch routes/usuarioRoute.js
 criando o usuariosControlers
 touch src/controllers/usuariosControllers.js
 
+visualizando o status do projeto e salvando ele localmente antes de subir para o git
+git status
 
+adicionando todas as modificações ao repositorio local, se quiser add só uma modificação é só colocar gir add 'nome do arquivo'
+git add .
+
+criando uma mensagem
+git commit -m "mensagem"
+
+informando quais os repositorios remotos que você tem
+git remote -v
+
+adicionando o meu repositorio
+git remote add origen <lik do repositori>
+
+colocando em um repositorio nas nuvens
+git push -u origin master
+
+na primeira vez ele vai pedir usuario e senha
+
+
+
+
+
+git commit -m " Criado as Pastas do projeto todolistsql, models, src, src/controlles, src/routes, e os arquivos de
+ntro das pastas src/controllers/usuariosControllers.js, src/routes/usuarioRoutes.js,  na pasta raiz .gitignore, pack
+age.json, package-lock.json e server.js."
